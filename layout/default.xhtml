@@ -1,22 +1,58 @@
-<?xml version="1.0" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <title>#{@title}</title>
-    <meta http-equiv="Content-Script-Type" content="text/javascript" />
-    <meta http-equiv="Content-Style-Type" content="text/css" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="expires" content="0" />
-    <meta name="description" content="nonono is awesome!" />
-    <meta name="author" content="Daniel Schildt" />
-    <meta name="date" content="#{Time.now.iso8601}" />
-    #{css 'screen'}
-  </head>
-  <body>
-    <h1>#{@title}</h1>
-    <div id="content">
-      #@content
-    </div>
-  </body>
+<!doctype html>  
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --> 
+<!--[if lt IE 7 ]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>#{@title}</title>
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+
+	<meta name="description" content="nonono is awesome!" />
+	<meta name="author" content="/humans.txt" />
+	<meta name="date" content="#{Time.now.iso8601}" />
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	
+	<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="js/libs/modernizr-1.6.min.js"></script>
+
+	<!-- CSS : implied media="all" -->
+	<link rel="stylesheet" href="css/style.css?v=2">
+	<!--<link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">-->
+
+	#{css 'screen'}
+</head>
+<body lang="en" >
+
+<div id="container">
+<header>
+	<h1>#{@title}</h1>
+</header>
+
+<div id="main" role="main">
+    #@content
+</div>
+
+<footer>
+
+</footer>
+</div>
+
+
+<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.4.4.js"%3E%3C/script%3E'))</script>
+
+<script src="js/plugins.js"></script>
+<script src="js/script.js"></script>
+
+<!--[if lt IE 7 ]>
+	<script src="js/libs/dd_belatedpng.js"></script>
+	<script>DD_belatedPNG.fix('img, .png_bg'); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+<![endif]-->
+</body>
 </html>

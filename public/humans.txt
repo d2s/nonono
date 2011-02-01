@@ -1,0 +1,25 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+	Designer:	Daniel Schildt
+	Developer:	Daniel Schildt
+	Contact: daniel [at] autiomaa.org
+	Site: http://autiomaa.org
+	Twitter: @autiomaa
+	From: Jyväskylä, Finland
+
+
+/* THANKS */
+  Names (& URL): 
+
+
+
+
+/* SITE */
+	Language:English
+	Standards: HTML5, CSS3
+	Components: Modernizr, jQuery
+	Backend: Ruby
+	IDE: Espresso 1.1
