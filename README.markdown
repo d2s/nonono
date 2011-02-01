@@ -19,8 +19,8 @@ Learning how to use [Ramaze][]
 
 @TODO: Write description of how to use it.
 
-Start testing it locally (at http://localhost:7000)
-`./start.rb`
+Start testing it locally (http://localhost:7000)
+    ./start.rb
 
 
 ### Writing ###
