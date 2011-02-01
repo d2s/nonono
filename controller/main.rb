@@ -18,3 +18,25 @@ class MainController < Controller
     "there is no 'notemplate.xhtml' associated with this action"
   end
 end
+
+
+class Contact < Ramaze::Controller
+  map '/contact'
+
+  # http://localhost:7000/contact/hello
+  def hello
+    "Hello from Another!"
+  end
+end
+
+class Feed < Ramaze::Controller
+  map '/feed'
+  
+  def minimal
+    "Minimalist Feed!"
+  end
+end
+
+
+
+
