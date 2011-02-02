@@ -14,8 +14,8 @@ Things to do…
 
 ### Mobile layout
 
-* Look at tips from LESS 3 CSS Framework
-* Consider using jQuery UI and jQuery Mobile
+* Look at tips from [Less Framework 3](http://lessframework.com/)
+* Consider using [jQuery UI](https://github.com/jquery/jquery-ui) and [jQuery Mobile](https://github.com/jquery/jquery-mobile)
 
 
 
