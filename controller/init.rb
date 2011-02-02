@@ -3,8 +3,8 @@
 
 class Controller < Ramaze::Controller
   layout :default
-  helper :xhtml
-  engine :Etanni
+  #helper :xhtml
+  #engine :Etanni
 end
 
 # Here go your requires for subclasses of Controller:
