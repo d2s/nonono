@@ -5,6 +5,7 @@
 
 require 'rubygems'
 require 'ramaze'
+
 require 'mustache'
 require 'rdiscount'
 require 'compass'

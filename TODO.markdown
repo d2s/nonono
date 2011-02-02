@@ -6,6 +6,18 @@ Things to do…
 
 * Integrate HTML5-boilerplate
 
+### Standard layout
+
+* Test with different browsers
+* Create basic styles for different elements
+* Use SASS for generating CSS so that it would be as simple as possible to extend.
+
+### Mobile layout
+
+* Look at tips from LESS 3 CSS Framework
+* Consider using jQuery UI and jQuery Mobile
+
+
 
 ## Engine
 
@@ -37,5 +49,5 @@ Things to do…
 
 * Create new favicon.ico
 * Create new apple-touch-icon.png (size: 129×129 px)
-
+* Create UI graphics (but only if it isn't easily possible with CSS3)
 
