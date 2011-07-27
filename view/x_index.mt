@@ -1,7 +1,6 @@
 <html>
   <head>
-  	<!-- Template::Mustache external -->
-    <title>nonono</title>
+    <title>Template::Mustache external</title>
   </head>
   <body>
   <h1>{{header}}</h1>

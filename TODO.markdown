@@ -10,7 +10,9 @@ Things to do…
 
 * Test with different browsers
 * Create basic styles for different elements
-* Use SASS for generating CSS so that it would be as simple as possible to extend.
+* Use SASS/Compass for generating CSS so that it would be as simple as possible to extend.
+* Use [Formalize](https://github.com/nathansmith/formalize) for making form layouts work better in different browsers.
+
 
 ### Mobile layout
 
@@ -30,10 +32,13 @@ Things to do…
 * Read documentation and do something interesting with it…
 
 
+* Finish Gemfile so that it would actually do something real…
+
 
 
 ### In the future…
 
+* Update to latest version of jQuery (1.5)
 * Atom feed generation
 * sitemap.xml generation
 
