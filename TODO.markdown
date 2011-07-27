@@ -4,7 +4,7 @@ Things to do…
 
 ## Layout
 
-* Integrate HTML5-boilerplate
+* Integrate HTML5-Boilerplate
 
 ### Standard layout
 
@@ -23,7 +23,6 @@ Things to do…
 
 ## Engine
 
-* Integrate sass (CSS Generation)
 * Integrate compass (CSS Generation)
 * Integrate rdiscount (Markdown parser)
 * Integrate mustache (Template system)
@@ -32,16 +31,17 @@ Things to do…
 * Read documentation and do something interesting with it…
 
 
+## Packaging
+
 * Finish Gemfile so that it would actually do something real…
 
 
 
 ### In the future…
 
-* Update to latest version of jQuery (1.5)
+* Update to latest version of jQuery (1.6.2)
 * Atom feed generation
 * sitemap.xml generation
-
 
 
 
