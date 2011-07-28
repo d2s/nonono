@@ -7,6 +7,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/d2s/projects/software/ruby/personal/nonono/README.markdown",
+			"settings":
+			{
+				"buffer_size": 1221,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/d2s/projects/software/ruby/personal/nonono/TODO.markdown",
+			"settings":
+			{
+				"buffer_size": 1223,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/d2s/projects/software/ruby/personal/nonono/docs/HTML5.markdown",
+			"settings":
+			{
+				"buffer_size": 488,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -27,6 +51,7 @@
 	},
 	"file_history":
 	[
+		"/Users/d2s/projects/software/ruby/personal/nonono/app.rb"
 	],
 	"find_in_files":
 	{
@@ -66,8 +91,87 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/d2s/projects/software/ruby/personal/nonono/README.markdown",
+					"settings":
+					{
+						"buffer_size": 1221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								144
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/d2s/projects/software/ruby/personal/nonono/TODO.markdown",
+					"settings":
+					{
+						"buffer_size": 1223,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								372,
+								372
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/d2s/projects/software/ruby/personal/nonono/docs/HTML5.markdown",
+					"settings":
+					{
+						"buffer_size": 488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -100,6 +204,22 @@
 		"height": 0,
 		"selected_items":
 		[
+			[
+				"rb",
+				"app.rb"
+			],
+			[
+				"read",
+				"README.markdown"
+			],
+			[
+				"tod",
+				"TODO.markdown"
+			],
+			[
+				"html",
+				"docs/HTML5.markdown"
+			]
 		],
 		"width": 0
 	},
