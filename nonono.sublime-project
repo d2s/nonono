@@ -8,26 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/d2s/projects/software/ruby/personal/nonono/README.markdown",
+			"file": "/Users/pelle/Sites/github/nonono/controller/init.rb",
 			"settings":
 			{
-				"buffer_size": 1221,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/d2s/projects/software/ruby/personal/nonono/TODO.markdown",
-			"settings":
-			{
-				"buffer_size": 1223,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/d2s/projects/software/ruby/personal/nonono/docs/HTML5.markdown",
-			"settings":
-			{
-				"buffer_size": 488,
+				"buffer_size": 261,
 				"line_ending": "Unix"
 			}
 		}
@@ -35,11 +19,27 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0,
+		"height": 364,
 		"selected_items":
 		[
+			[
+				"con",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"co",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"hots",
+				"Snippet: Hotspot (golf hole flag)"
+			]
 		],
-		"width": 0
+		"width": 378
+	},
+	"console":
+	{
+		"height": 158
 	},
 	"distraction_free":
 	{
@@ -51,10 +51,142 @@
 	},
 	"file_history":
 	[
-		"/Users/d2s/projects/software/ruby/personal/nonono/app.rb"
+		"/Users/pelle/Sites/github/nonono/controller/main.rb",
+		"/Users/pelle/Sites/github/nonono/docs/HTML5.markdown",
+		"/Users/pelle/Sites/github/nonono/docs/Workflow.markdown",
+		"/Users/pelle/Sites/github/nonono/layout/default.xhtml",
+		"/Users/pelle/Sites/github/nonono/model/init.rb",
+		"/Users/pelle/Sites/github/nonono/modules/compass/config.rb",
+		"/Users/pelle/Sites/github/nonono/public/css/style.css",
+		"/Users/pelle/Sites/github/nonono/public/css/handheld.css",
+		"/Users/pelle/Sites/github/nonono/public/js/plugins.js",
+		"/Users/pelle/Sites/github/nonono/public/js/script.js",
+		"/Users/pelle/Sites/github/nonono/public/.htaccess",
+		"/Users/pelle/Sites/github/nonono/public/404.html",
+		"/Users/pelle/Sites/github/nonono/public/crossdomain.xml",
+		"/Users/pelle/Sites/github/nonono/public/dispatch.fcgi",
+		"/Users/pelle/Sites/github/nonono/public/humans.txt",
+		"/Users/pelle/Sites/github/nonono/public/robots.txt",
+		"/Users/pelle/Sites/github/nonono/spec/main.rb",
+		"/Users/pelle/Sites/github/nonono/view/external.mt",
+		"/Users/pelle/Sites/github/nonono/view/index.xhtml",
+		"/Users/pelle/Sites/github/nonono/view/internal.mt",
+		"/Users/pelle/Sites/github/nonono/view/x_index.mt",
+		"/Users/pelle/Sites/github/nonono/.gitignore",
+		"/Users/pelle/Sites/github/nonono/app.rb",
+		"/Users/pelle/Sites/github/nonono/config.ru",
+		"/Users/pelle/Sites/github/nonono/Gemfile",
+		"/Users/pelle/Sites/github/nonono/Rakefile",
+		"/Users/pelle/Sites/github/nonono/README.markdown",
+		"/Users/pelle/Sites/github/nonono/start.rb",
+		"/Users/pelle/Sites/github/nonono/template_mustache.rb",
+		"/Users/pelle/Sites/github/nonono/TODO.markdown",
+		"/Users/pelle/Sites/github/nonono/controller/init.rb",
+		"/Users/pelle/projects/software/Espresso/jquery/TextActions/Snippets.xml",
+		"/Users/pelle/projects/software/Espresso/jquery/CodesenseLibraries/jQuery.xml",
+		"/Users/pelle/projects/software/Espresso/jquery/CodeSenseProviders/jQuery.xml",
+		"/Users/pelle/projects/software/Espresso/jquery/PlaceholderThemes/jQuery.css",
+		"/Users/pelle/projects/software/Espresso/jquery/Syntaxes/jQuery.xml",
+		"/Users/pelle/projects/software/Espresso/jquery/SyntaxInjections/JS-jQuery.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/golfclub_linnaspa_naiset.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/golfclub_linnaspa_naiset_pukuhuone.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/golfclub_linnaspa_naiset_sauna.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/golfclub_linnaspa_naiset_suihkutilat.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/golfclub_suite89_ballybunion_alakerta.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/golfclub_suite89_ballybunion_makuuhuone.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/golfclub_suite89_ballybunion_suihku_sauna.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/golfclub_suite89_kaytava.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/grand_suite80_kylpyhuone_sauna.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/grand_suite80_makuuhuone_oikea.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/grand_suite80_makuuhuone_vasen.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/grand_suite80_olohuone.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/grand_suite80_sisaankaynti.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/grand_suite_etuovi.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/grand_suite_piha.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/grand_suites_kaytava.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/grand_suites_kaytava_2.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/klubirakennus_aula.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/klubirakennus_aulan_portaat.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/klubirakennus_etupiha.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/klubirakennus_pro_shop.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/klubirakennus_ruokasali.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/klubirakennus_takapiha.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/klubirakennus_ylakerta.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/kreivila_piha.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/kreivila_pukuhuone.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/kreivila_punainen_huone.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/kreivila_sauna.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/linnanpiha.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/lordi_h56_makuuhuone_alakerta.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/lordi_h56_makuuhuone_ylakerta.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/lordi_h56_olohuone.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/markiisi_piha.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paakirjasto_kirjasto.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_allassali.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_allassalikaytava_portaat.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_allassalinkaytava.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_aula.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_aula_2.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_aula_3.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_aula_kaytava.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_aula_kaytava_2.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_biljardisali.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_elamyskellari.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_h33.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_juhlasali.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_juhlasali_2.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_knightbar.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_kirjasto_2.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_knightbar_baaritiski.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_knightbar_valikko.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_kuntosali.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_kuntosali_2.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_lansisiipi_kaytava.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_lobbybar.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_lobbybar_2.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_musiikkisali.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_musiikkisali_2.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_musiikkisali_3.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_rytisali.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_rytisali_2.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_rytisali_3.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paalinna_viinitupa.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paarakennus_h25.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paarakennus_kaytava.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paarakennus_takapiha.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/paviljonki.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/pehtoorila_h46.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/pehtoorila_h46_makuuhuone_olohuone.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/pehtoorilan_sisaantuloaula.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/puttausalue.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/ratsula_etupiha.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/ratsula_h63_kylpyhuone.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/ratsula_h63_makuuhuone.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/sauna_laituri.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/sauna_pesuhuone.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/sauna_pesuhuone2.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/sauna_piha.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/sauna_pukuhuone.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/sauna_pukuhuone2.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/sauna_sauna.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/sauna_sauna2.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/sauna_tupa.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/sauna_tupa2.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/nappirivi-alue.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/nappirivi-0.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/nappirivi-1.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/nappirivi-2.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/golfclub_linnaspa_miehet_pukuhuone_2.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/golfclub_linnaspa_miehet_pukuhuone.xml",
+		"/Users/pelle/Sites/virtual/vanaja/vanajanlinna/golfclub_linnaspa_miehet_sauna.xml"
 	],
+	"find":
+	{
+		"height": 34
+	},
 	"find_in_files":
 	{
+		"height": 0,
 		"include_history":
 		[
 		],
@@ -67,6 +199,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";\"\n    />",
+			"activatespot",
+			"mappointactive",
+			"style_hs_normal",
+			"handcursor",
+			"ratsula",
+			"aula",
+			"golfclub",
+			"action",
+			"url=\"paviljonki.tiles",
+			"\"_MG_8570bb-Edit-export-flat.tiles",
+			"full",
+			"map_2",
+			"map_1",
+			"map-alue"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -74,6 +221,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			";\" />",
+			"url=\"tiles/paviljonki.tiles",
+			"\"paviljonki.tiles",
+			"map"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -85,7 +236,7 @@
 	{
 		"mount_points":
 		[
-			"/Users/d2s/projects/software/ruby/personal/nonono"
+			"/Users/pelle/Sites/github/nonono"
 		]
 	},
 	"groups":
@@ -96,62 +247,10 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/d2s/projects/software/ruby/personal/nonono/README.markdown",
+					"file": "/Users/pelle/Sites/github/nonono/controller/init.rb",
 					"settings":
 					{
-						"buffer_size": 1221,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								144,
-								144
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/d2s/projects/software/ruby/personal/nonono/TODO.markdown",
-					"settings":
-					{
-						"buffer_size": 1223,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								372,
-								372
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/d2s/projects/software/ruby/personal/nonono/docs/HTML5.markdown",
-					"settings":
-					{
-						"buffer_size": 488,
+						"buffer_size": 261,
 						"regions":
 						{
 						},
@@ -164,7 +263,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0,
 						"translation.y": 0,
@@ -175,6 +274,14 @@
 			]
 		}
 	],
+	"incremental_find":
+	{
+		"height": 0
+	},
+	"input":
+	{
+		"height": 0
+	},
 	"layout":
 	{
 		"cells":
@@ -198,6 +305,10 @@
 		]
 	},
 	"menu_visible": true,
+	"replace":
+	{
+		"height": 64
+	},
 	"save_all_on_build": true,
 	"select_file":
 	{
@@ -205,20 +316,232 @@
 		"selected_items":
 		[
 			[
-				"rb",
-				"app.rb"
+				"style",
+				"styles.xml"
 			],
 			[
-				"read",
-				"README.markdown"
+				"defaul",
+				"skin/defaultskin.xml"
 			],
 			[
-				"tod",
-				"TODO.markdown"
+				"linna",
+				"linnanpiha.xml"
 			],
 			[
-				"html",
-				"docs/HTML5.markdown"
+				"nappi",
+				"nappirivi-3.xml"
+			],
+			[
+				"nappiri",
+				"nappirivi-0.xml"
+			],
+			[
+				"action",
+				"actions.xml"
+			],
+			[
+				"skin",
+				"skin/defaultskin.xml"
+			],
+			[
+				"aeri",
+				"skin/aerialskin.xml"
+			],
+			[
+				"ac",
+				"actions-common.xml"
+			],
+			[
+				"actio",
+				"actions.xml"
+			],
+			[
+				"lin",
+				"linnanpiha.xml"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"klubira",
+				"klubirakennus_etupiha.xml"
+			],
+			[
+				"klubi",
+				"klubirakennus_ruokasali.xml"
+			],
+			[
+				"testa",
+				"golfclub-testaus.html"
+			],
+			[
+				"golf",
+				"golfclub.html"
+			],
+			[
+				"golfclub/",
+				"golfclub/index.html"
+			],
+			[
+				"golfclub",
+				"golfclub/golfclub-testaus.html"
+			],
+			[
+				"def",
+				"skin/defaultskin.xml"
+			],
+			[
+				"markii",
+				"markiisi_piha.xml"
+			],
+			[
+				"rat",
+				"ratsula_etupiha.xml"
+			],
+			[
+				"alue",
+				"nappirivi-alue.xml"
+			],
+			[
+				"putt",
+				"puttausalue.xml"
+			],
+			[
+				"linnan",
+				"linnanpiha.xml"
+			],
+			[
+				"ruokasa",
+				"klubirakennus_ruokasali.xml"
+			],
+			[
+				"gran",
+				"grand_suite_piha.xml"
+			],
+			[
+				"0",
+				"nappirivi-0.xml"
+			],
+			[
+				"aula3",
+				"paalinna_aula_3.xml"
+			],
+			[
+				"aula2",
+				"paalinna_aula_kaytava_2.xml"
+			],
+			[
+				"aula",
+				"paalinna_aula.xml"
+			],
+			[
+				"klubirakenn",
+				"klubirakennus_aulan_portaat.xml"
+			],
+			[
+				"knigh",
+				"paalinna_knightbar.xml"
+			],
+			[
+				"kni",
+				"paalinna_knightbar_baaritiski.xml"
+			],
+			[
+				"pehtoori",
+				"pehtoorilan_sisaantuloaula.xml"
+			],
+			[
+				"linnaspa",
+				"golfclub_linnaspa_naiset.xml"
+			],
+			[
+				"kl",
+				"klubirakennus_etupiha.xml"
+			],
+			[
+				"putta",
+				"puttausalue.xml"
+			],
+			[
+				"grand",
+				"grand_suite_piha.xml"
+			],
+			[
+				"ratsula",
+				"ratsula_h63_makuuhuone.xml"
+			],
+			[
+				"ratsu",
+				"ratsula_etupiha.xml"
+			],
+			[
+				"lordi",
+				"lordi_h56_makuuhuone_ylakerta.xml"
+			],
+			[
+				"sty",
+				"styles.xml"
+			],
+			[
+				"linnanpi",
+				"linnanpiha.xml"
+			],
+			[
+				"linann",
+				"golfclub_linnaspa_naiset_sauna.xml"
+			],
+			[
+				"markiisi",
+				"markiisi_piha.xml"
+			],
+			[
+				"golfclub_",
+				"golfclub_aula.xml"
+			],
+			[
+				"defau",
+				"skin/defaultskin.xml"
+			],
+			[
+				"golfclub-te",
+				"golfclub/golfclub-testaus.html"
+			],
+			[
+				"in",
+				"index-testaus.html"
+			],
+			[
+				"etupiha",
+				"klubirakennus_etupiha.xml"
+			],
+			[
+				"actions",
+				"actions.xml"
+			],
+			[
+				"styles",
+				"styles.xml"
+			],
+			[
+				"inde",
+				"index-testaus.html"
+			],
+			[
+				".xml",
+				"puttausalue.xml"
+			],
+			[
+				"pavil",
+				"paviljonki.xml"
+			],
+			[
+				"acorn",
+				"maps/mappoint.acorn"
+			],
+			[
+				"xml",
+				"actions.xml"
 			]
 		],
 		"width": 0
@@ -234,6 +557,6 @@
 	"show_minimap": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 214,
+	"side_bar_width": 230,
 	"status_bar_visible": true
 }

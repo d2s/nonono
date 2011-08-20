@@ -3,7 +3,7 @@ require 'ramaze'
 
 class MainController < Ramaze::Controller
   engine :Mustache
-  
+
   def index
     @home     = a('Home',:/)
     @internal = a(:internal)
