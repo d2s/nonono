@@ -4,7 +4,10 @@ Things to do…
 
 ## Layout
 
-* Integrate HTML5-Boilerplate
+* Integrate HTML5 Boilerplate
+* Update to the latest version of HTML5 Boilerplate
+* Update to latest version of jQuery (1.6.2)
+
 
 ### Standard layout
 
@@ -39,7 +42,6 @@ Things to do…
 
 ### In the future…
 
-* Update to latest version of jQuery (1.6.2)
 * Atom feed generation
 * sitemap.xml generation
 
